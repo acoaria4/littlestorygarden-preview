@@ -1,29 +1,29 @@
-# Little Story Garden — design preview
+# Little Story Garden
 
-[Compare the three designs](https://acoaria4.github.io/littlestorygarden-preview/)
+[Visit Moonlit Garden](https://acoaria4.github.io/littlestorygarden-preview/)
 
-A public review page for three Little Story Garden concepts: Sunlit Garden, Moonlit Garden, and Botanical Press. The development project and handoff are maintained separately in a private repository.
+A dreamy blue website for personalised family alphabet books. Moonlit Garden is the chosen direction. Development source and the handoff remain in a separate private repository; this repository holds only compiled preview artifacts.
 
-![The three design concepts](preview.png)
+![Moonlit Garden](preview.png)
 
-## Try it
+Browse sample book pages, discover the family story, and try the creation preview. [Earlier concepts](https://acoaria4.github.io/littlestorygarden-preview/concepts/) preserve the three original directions.
 
-Compare all three concepts side by side. Use **Expand** to inspect one design, **Screen** to switch between desktop and mobile, and **Peek inside** to browse an existing sample page. Creation buttons demonstrate name entry only. **Prefer this design** marks a choice on the page; it does not send feedback. Send your preferred name and thoughts to the person who shared the link.
+## Creation preview
 
-## Scope
-
-This is an early design comparison, not an ordering website. It does not upload photographs, generate illustrations, accept payments, or place orders. No final direction has been chosen.
-
-The site is static HTML, CSS, and JavaScript, with embedded sample artwork from the owner's original Inara alphabet book. No original family photographs, project handoff, reference snapshots, credentials, or private development history are included. No general reuse licence is granted for the artwork or project.
+Family details and photographs stay in browser memory and disappear on refresh. They are not uploaded. Inara's explicitly labelled sample family demonstrates per-person approval, correction notes, and book preview. Generation, storage, payments, printing, and fulfilment are not connected. No orders can be placed.
 
 ## Run locally
+
+Clone this repository into a directory named `littlestorygarden-preview`, then run from its parent:
 
 ```sh
 python -m http.server 4173 --bind 127.0.0.1
 ```
 
-Open `http://127.0.0.1:4173/`. Stop the server with Ctrl+C. No build or package installation is required. Google Fonts supplies Fraunces and DM Sans when online, with Georgia and system sans-serif fallbacks.
+Open `http://127.0.0.1:4173/littlestorygarden-preview/`. Stop with Ctrl+C. This compiled build uses that URL base path; rebuilds happen in the private source project.
 
-## Files and hosting
+## Assets and hosting
 
-`index.html` is the complete review page, `preview.png` illustrates this README, `.nojekyll` enables static publishing, and `robots.txt` discourages indexing. GitHub Pages publishes the `main` branch from `/`. The site and this repository are public; indexing directives are not access controls.
+Static Next.js/React export with GSAP and self-hosted DM Sans/Fraunces fonts from Fontsource. The original Inara alphabet-book artwork is shared for the authorised review. No original family photographs, source history, credentials, source maps, handoff, or reference snapshots are included. No general reuse licence is granted for the artwork or project. Font licences are in `font-licences/`.
+
+GitHub Pages serves `main:/` with `.nojekyll` to support `_next` assets. The site and artifacts are public. Noindex and robots directives discourage indexing; they are not access controls.

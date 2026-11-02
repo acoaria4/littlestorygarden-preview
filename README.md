@@ -2,7 +2,7 @@
 
 [Visit Moonlit Garden](https://acoaria4.github.io/littlestorygarden-preview/)
 
-A dreamy blue website for personalised family alphabet books. Moonlit Garden is the chosen direction. Development source and the handoff remain in a separate private repository; this repository holds only compiled preview artifacts.
+A dreamy blue website for personalised family alphabet books. Moonlit Garden is the chosen direction, with the approved Sleepy Bunny logo. Sample pages run alphabetically: A Apple, E Elephant, M Moon, Z Zebra. Development source and the handoff remain in a separate private repository; this repository holds only compiled preview artifacts.
 
 ![Moonlit Garden](preview.png)
 

@@ -10,7 +10,7 @@ Browse sample book pages, discover the family story, and try the creation previe
 
 ## Creation preview
 
-Family details and photographs stay in browser memory and disappear on refresh. They are not uploaded. Inara's explicitly labelled sample family demonstrates per-person approval, correction notes, and book preview. Generation, storage, payments, printing, and fulfilment are not connected. No orders can be placed.
+Family details, photographs, appearance/clothing/accessory choices, and correction notes stay in browser memory and disappear on refresh. They are not uploaded. Choose preferences before reviewing one family illustration, using Inara's explicitly labelled existing artwork to demonstrate per-person review checks and one family approval. Choices and correction notes do not change that artwork. The four A/E/M/Z pages are examples from Inara's original book, separate from the family approval sample. Generation, storage, payments, printing, and fulfilment are not connected. No orders can be placed.
 
 ## Run locally
 
